@@ -6,14 +6,10 @@ mix
   .less('resources/less/freebird.less', 'css')
   .options({
     postCss: [require('tailwindcss')()],
+    processCssUrls: false,
   })
   .purgeCss()
   .browserSync({
     proxy: 'freebird.test',
-    files: [
-      'layouts/**/*',
-      'partials/**/*',
-      'resources/**/*',
-      '../../content/**/*',
-    ],
+    files: ['./**/*', '../../content/**/*'],
   })
