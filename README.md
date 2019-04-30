@@ -29,8 +29,8 @@ Freebird configures `primary-*` classes for Tailwind and sets them to purple by 
 By default, the `css/freebird.css` and `css/freebird.js` files are not kept in version control. 
 When deploying a project built with Freebird, you have two options:
     
-    
-1. **(recommended)** You can run `npm run prod` when you deploy your site to build fresh assets         
+
+1. **(recommended)** You can run `npm run prod` when you deploy to build fresh assets         
 
 **OR**
     
