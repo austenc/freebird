@@ -15,7 +15,12 @@
     <link rel="stylesheet" href="{{ theme:css }}" />
   </head>
 
-  <body class="font-sans antialiased min-h-screen">
+  <body
+    class="font-sans antialiased min-h-screen"
+    style="background: transparent url({{ theme:img src='freebird.png' }}) bottom center no-repeat;"
+  >
+    <!-- ^ You'll probably want to delete this inline style and the image in favor of your own theme  -->
+
     <div class="container mx-auto">
       {{ template_content }}
     </div>
