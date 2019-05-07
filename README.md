@@ -43,4 +43,4 @@ When deploying a project built with Freebird, you have two options:
 
 This project is new, pull requests, ideas, and any feedback is certainly welcome!
 
-Please [open a github issue](https://github.com/freebird/issues/new) if you have something to say.
+Please [open a github issue](https://github.com/austenc/freebird/issues/new) if you have something to say.
