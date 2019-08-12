@@ -12,7 +12,7 @@ _The theme is usable, but new, so feature requests are certainly welcome!_
 
 1. Get a statamic site up and running with your preferred method
 2. Download Freebird into your `site/themes` folder
-   - or clone from github with `git clone https://github.com/austenc/freebird.git`
+   - or clone from github with `git clone --depth=1 https://github.com/austenc/freebird.git`
 3. Set Freebird to the active theme under **Settings => Theming** in the control panel,
    or in the `site/settings/theming.yaml` file.
 4. Install dependencies with `npm install` and build assets with `npm run dev`
