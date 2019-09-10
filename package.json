@@ -15,9 +15,11 @@
     "cross-env": "^5.2.0",
     "laravel-mix": "^4.0.15",
     "laravel-mix-purgecss": "^4.1.0",
-    "less": "^3.9.0",
-    "less-loader": "^4.1.0",
     "tailwindcss": "~1",
     "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {
+    "postcss-import": "^12.0.1",
+    "postcss-nesting": "^7.0.1"
   }
 }

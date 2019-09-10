@@ -3,12 +3,18 @@ require('laravel-mix-purgecss')
 
 mix
   .js('resources/js/freebird.js', 'js')
-  .less('resources/less/freebird.less', 'css')
+  .postCss('resources/css/freebird.css', 'css')
   .options({
-    postCss: [require('tailwindcss')()],
-    processCssUrls: false,
+    postCss: [
+      require('postcss-import')(),
+      require('tailwindcss')(),
+      require('postcss-nesting')(),
+    ],
   })
-  .purgeCss()
+  .purgeCss({
+    folders: ['templates', 'layouts'],
+    whitelist: ['a', 'p', 'h1', 'h2', 'h3', 'h4', 'h5', 'ol', 'ul', 'li'],
+  })
   .browserSync({
     proxy: 'freebird.test',
     files: ['./**/*', '../../content/**/*'],
