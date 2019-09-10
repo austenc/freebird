@@ -16,9 +16,7 @@
     "laravel-mix": "^4.0.15",
     "laravel-mix-purgecss": "^4.1.0",
     "tailwindcss": "~1",
-    "vue-template-compiler": "^2.6.10"
-  },
-  "dependencies": {
+    "vue-template-compiler": "^2.6.10",
     "postcss-import": "^12.0.1",
     "postcss-nesting": "^7.0.1"
   }
