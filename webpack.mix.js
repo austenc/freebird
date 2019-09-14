@@ -12,7 +12,7 @@ mix
     ],
   })
   .purgeCss({
-    folders: ['templates', 'layouts'],
+    folders: ['templates', 'layouts', 'partials', 'resources'],
     whitelist: ['a', 'p', 'h1', 'h2', 'h3', 'h4', 'h5', 'ol', 'ul', 'li'],
   })
   .browserSync({
